@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Troca de Serviços</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header nav {
+            margin-top: 20px;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 100px 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #fff;
+        }
+
+        .hero-section h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 24px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .featured-services {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .service {
+            margin-bottom: 30px;
+            display: inline-block;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .service-content {
+            padding: 20px;
+        }
+
+        .service h3 {
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer p a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer p a:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Meu Site de Troca de Serviços</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Como Funciona</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero-section">
+    <div class="container">
+        <h2>Encontre serviços e troque com outros usuários!</h2>
+        <p>No nosso site, você pode oferecer seus serviços e trocar com outros usuários. Cadastre-se agora e comece a trocar!</p>
+        <a href="register.html" class="btn">Cadastre-se</a>
+    </div>
+</section>
+
+<section class="featured-services">
+    <div class="container">
+        <h2>Serviços em Destaque</h2>
+        <div class="service">
+            <img src="service1.jpg" alt="Serviço 1">
+            <div class="service-content">
+                <h3>Serviço 1</h3>
+                <p>Descrição breve do serviço 1.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Serviço 2">
+            <div class="service-content">
+                <h3>Serviço 2</h3>
+                <p>Descrição breve do serviço 2.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="service3.jpg" alt="Serviço 3">
+            <div class="service-content">
+                <h3>Serviço 3</h3>
+                <p>Descrição breve do serviço 3.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Meu Site de Troca de Serviços. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
